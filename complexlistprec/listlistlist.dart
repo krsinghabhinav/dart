@@ -17,12 +17,12 @@ void main() {
   // print(num[0]);
   // print(num[0][0]);
 
-  for (var i in num) {
-    // print(i);
-    for (var j in i) {
-      // print(j[0]);
-    }
-  }
+  // for (var i in num) {
+  //   // print(i);
+  //   for (var j in i) {
+  //     // print(j[0]);
+  //   }
+  // }
 
   for (int i = 0; i < num.length; i++) {
     print(num[i]);

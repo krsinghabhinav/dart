@@ -14,9 +14,9 @@ void main() {
     ],
   ];
   for (int i = 0; i < studentsMarks.length; i++) {
-    print(studentsMarks[i]);
+    // print(studentsMarks[i]);
     for (int j = 0; j < studentsMarks[i].length; j++) {
-      // print(studentsMarks[i][j]["marks"]);
+      print(studentsMarks[i][j]["marks"]);
     }
   }
 }
